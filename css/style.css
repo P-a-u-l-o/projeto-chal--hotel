@@ -34,16 +34,19 @@ body {
     left: 0;
     z-index: 1;
 }
+
 .logo a {
     position: absolute;
-    top:15px;
-    left:15px;
+    top: 15px;
+    left: 15px;
     z-index: 3;
-    background:url(../img/logo.png) no-repeat;
+    background: url(../img/logo.png) no-repeat;
     width: 151px;
-    height:66px;
-    text-indent: -3000px;;
+    height: 66px;
+    text-indent: -3000px;
+    ;
 }
+
 #area-menu {
     position: absolute;
     top: 0;
@@ -73,13 +76,57 @@ body {
     float: left;
     line-height: 2.1em;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 a.reserva {
     text-transform: uppercase;
     background: #a29750;
-    color:#fff5b0;
+    color: #fff5b0;
+    border-radius: 5px;
     padding: 5px 10px;
-    float:right;
+    float: right;
+}
+
+a.reserva:hover {
+    background:#000;
+    color:#fdf6be;
+}
+
+/*Barra de navegação vertical
+*/
+#menu {
+    margin-top: 15px;
+}
+ul {
+    list-style: none;
+}
+ul#navegacao {
+    float:left;
+}
+
+ul#navegacao a {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding:5px;
+    color:#6e672c;
+    line-height:30px;
+}
+
+ul#navegacao a:hover {
+    background:#000;
+    color: #fdf6be;
+    border-radius: 5px;
+} 
+
+.depoimento {
+    width: 226px;
+    height: 164px;
+    float: right;
+}
+
+.div-clear-both {
+    clear: both;
 }
